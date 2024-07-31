@@ -1,0 +1,62 @@
+/* Our Happy Clients Section */
+#our-happy-clients {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.our-happy-clients-container {
+    width: calc(100% - 40px); /* Full width minus margins */
+    max-width: 1200px; /* Optional: to limit the max width */
+    margin: 0 auto; /* Center the container */
+    text-align: center;
+}
+
+#our-happy-clients h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#our-happy-clients p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for the slider */
+}
+
+.slider-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5em;
+    transform: translateY(-50%);
+}
+
+.slider-button.prev {
+    left: 10px;
+}
+
+.slider-button.next {
+    right: 10px;
+}

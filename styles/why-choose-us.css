@@ -1,0 +1,71 @@
+/* Why Choose Us Section */
+#why-choose-us {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.why-choose-us-container {
+    width: calc(100% - 40px); /* Full width minus margins */
+    max-width: 1200px; /* Optional: to limit the max width */
+    margin: 0 auto; /* Center the container */
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#why-choose-us p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.why-choose-us-highlight {
+    text-decoration: underline;
+    color: green;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    flex: 1;
+    max-width: 300px; /* Optional: limit the max width of each card */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: green;
+    color: white;
+    box-shadow: 8px 8px 16px #a3b1c6, -8px -8px 16px #ffffff; /* Neumorphic effect */
+    text-align: center;
+}
+
+.why-choose-us-image-container {
+    
+    flex: 1;
+    max-width: 300px; /* Optional: limit the max width of each card */
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    /* background-color: green; */
+    color: white;
+    box-shadow: 8px 8px 16px #a3b1c6, -8px -8px 16px #ffffff; /* Neumorphic effect */
+    text-align: center;
+}
+
+.why-choose-us-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}

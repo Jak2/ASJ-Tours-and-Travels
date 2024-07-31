@@ -1,0 +1,56 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+#navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; /* Center the container */
+    background: transparent;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid transparent; /* Border for future use */
+}
+
+#navbar.navbar-scrolled {
+    background-color: rgba(13, 65, 0, 0.589);
+    border-bottom: 1px solid #ccc; /* Border when scrolled */
+}
+
+/* Navbar Container */
+.navbar-container {
+    width: calc(100% - 40px); /* Full width minus margins */
+    max-width: 1200px; /* Optional: to limit the max width */
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center;
+    padding: 10px 0; /* Padding inside the navbar */
+}
+
+/* Logo */
+.navbar-logo {
+    height: 40px;
+}
+
+/* Book Ride Button */
+.navbar-book-now {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.navbar-book-now:hover {
+    background-color: rgb(0, 109, 73);
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

@@ -1,0 +1,49 @@
+/* Our Happy Clients Section */
+#our-happy-clients {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.our-happy-clients-container {
+    width: calc(100% - 40px); /* Full width minus margins */
+    max-width: 1200px; /* Optional: to limit the max width */
+    margin: 0 auto; /* Center the container */
+    text-align: center;
+}
+
+#our-happy-clients h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#our-happy-clients p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.images-grid {
+    display: grid;
+    gap: 20px; /* Space between images */
+}
+
+/* For laptop view: 4 columns */
+@media (min-width: 1024px) {
+    .images-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* For mobile view: 2 columns */
+@media (max-width: 768px) {
+    .images-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.client-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
